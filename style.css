@@ -106,3 +106,26 @@ html, body {
     text-align: center;
   }
   
+
+
+  .top-bar {
+    background: #181818;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  
+  .upgrade-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
