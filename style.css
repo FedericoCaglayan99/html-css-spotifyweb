@@ -82,7 +82,7 @@ html, body {
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 12px;
+    font-size: 13px;
     justify-content: space-between;
   }
   
@@ -129,3 +129,44 @@ html, body {
     cursor: pointer;
   }
   
+  @media (min-width: 800px) {
+
+
+    .logo-small {
+        width: 20%;
+        margin-bottom: 10px;
+      }
+    
+     
+    .sidebar {
+        width: 220px;
+    
+
+  }
+
+  .bottom-bar {
+
+    padding: 35px 35px;
+  }
+  
+  .top-bar {
+    height: 120px;
+  }
+
+  .upgrade-btn {
+    padding: 20px 100px;
+    border-radius: 60px;
+    font-size: 18px;
+  }
+
+
+
+  .sidebar-item {
+    margin-right: 120px;
+  }
+
+  .logo-small {
+    margin-right: 110px;
+  }
+
+}
