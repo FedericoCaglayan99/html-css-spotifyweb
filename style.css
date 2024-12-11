@@ -170,3 +170,50 @@ html, body {
   }
 
 }
+
+
+
+
+@media (min-width: 1440px) {
+
+    .logo-small {
+        width: 20%;
+        margin-bottom: 10px;
+      }
+    
+     
+    .sidebar {
+        width: 350px;
+    
+
+  }
+
+  .bottom-bar {
+
+    padding: 45px 45px;
+  }
+  
+  .top-bar {
+    height: 150px;
+  }
+
+  .upgrade-btn {
+    padding: 30px 120px;
+    border-radius: 60px;
+    font-size: 20px;
+  }
+
+
+
+  .sidebar-item {
+    margin-right: 250px;
+  }
+
+  .logo-small {
+    margin-right: 230px;
+  }
+
+
+
+
+}
