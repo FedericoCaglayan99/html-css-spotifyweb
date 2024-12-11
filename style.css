@@ -42,3 +42,67 @@ html, body {
   }
 
  
+
+
+
+  .bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left:0; 
+    right: 0;
+    background: #181818;
+    border-top: 1px solid #333;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .track-info {
+    margin-bottom: 10px;
+  }
+  
+  .track-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .track-artist {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .progress-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    justify-content: space-between;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    height: 4px;
+    background: #333;
+    margin: 0 10px;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background: white;
+    border-radius: 2px;
+  }
+  
+  .time {
+    width: 40px;
+    text-align: center;
+  }
+  
